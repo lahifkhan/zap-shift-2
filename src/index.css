@@ -1,2 +1,31 @@
 @import "tailwindcss";
+
 @plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #caeb66;
+  --color-secondary: #03464d;
+}
+/* font family */
+.font-urban {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.text-des {
+  font-size: 16px;
+  color: #606060;
+}
+
+.text-link {
+  font-size: 16px;
+  color: #dadada;
+}
+
+.sec-title {
+  font-size: 40px;
+  font-weight: 800;
+  color: #03373d;
+}
