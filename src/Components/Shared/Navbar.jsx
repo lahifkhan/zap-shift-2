@@ -30,7 +30,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="text-des hover:text-black">
+                <NavLink to={"/coverage"} className="text-des hover:text-black">
                   Coverage
                 </NavLink>
               </li>
@@ -62,7 +62,9 @@ const Navbar = () => {
               <NavLink className="text-des hover:text-black">Services</NavLink>
             </li>
             <li>
-              <NavLink className="text-des hover:text-black">Coverage</NavLink>
+              <NavLink to={"/coverage"} className="text-des hover:text-black">
+                Coverage
+              </NavLink>
             </li>
             <li>
               <NavLink className="text-des hover:text-black">About Us</NavLink>

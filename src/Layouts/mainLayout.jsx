@@ -5,7 +5,7 @@ import Footer from "../Components/Shared/footer";
 
 const mainLayout = () => {
   return (
-    <div className="font-urban max-w-7xl mx-auto">
+    <div className="font-urban max-w-7xl mx-auto px-4">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>

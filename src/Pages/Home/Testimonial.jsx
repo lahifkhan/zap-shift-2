@@ -7,7 +7,7 @@ const Testimonial = ({ reviewPromise }) => {
   const reviews = use(reviewPromise);
   console.log(reviews);
   return (
-    <div>
+    <div className="my-10 space-y-8">
       <div className=" flex flex-col items-center mt-24 space-y-11 ">
         <img src={testimonImg} alt="" className="w-[244px] h-auto" />
         <div className="space-y-3">

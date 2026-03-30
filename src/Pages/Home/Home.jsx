@@ -4,6 +4,7 @@ import HowItWork from "./HowItWork";
 import OurService from "./OurService";
 import Brand from "./Brand";
 import Testimonial from "./Testimonial";
+import Couverage from "./Couverage";
 
 const reviewPromise = fetch("/reviews.json").then((res) => res.json());
 
