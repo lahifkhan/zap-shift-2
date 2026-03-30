@@ -35,3 +35,6 @@
   font-weight: bold;
   color: #03373d;
 }
+.brandSwiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
